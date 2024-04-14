@@ -1,4 +1,4 @@
-local games = loadstring(game:HttpGet('https://raw.githubusercontent.com/Voxul/VoxulHub/main/games.lua'))()
+local games = loadstring(game:HttpGet('https://raw.githubusercontent.com/KykyryzoB/who-2/main/a.lua'))()
 if games[game.PlaceId] then
   local getgenv = getgenv or getfenv
   getgenv().VoxulLib = 'https://raw.githubusercontent.com/Voxul/VoxulHub/main/Orion.lua'
